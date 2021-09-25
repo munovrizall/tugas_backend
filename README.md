@@ -1,4 +1,3 @@
-# tugas_backend
+# Tugas - tugas Programming Class Backend
 # Mohammad Novrizal Sugiarto
 # 11210930000043
-Tugas - tugas Programming Class Backend
