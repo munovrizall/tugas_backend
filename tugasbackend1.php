@@ -31,7 +31,7 @@ $kota = "Jakarta Selatan";
 $kode_pos = "12170";
 $alamat_lengkap = $jalan . ", " . $kelurahan . ", " . $kecamatan . ", " . $kota . ", " . $kode_pos;
 // Target IPK
-$target_ipk = "3.3";
+$target_ipk = 3.3;
 ?>
 
 <!DOCTYPE html>
@@ -45,8 +45,8 @@ $target_ipk = "3.3";
         <p>No. Telepon = <?php echo $no_telp ?></p>
         <p>Usia = <?php echo $usia ?> tahun</p>
         <p>Tempat Tanggal Lahir = <?php echo $tempat_tanggal_lahir?>
-        <?php echo var_dump($tahun_kabisat == 0)?></p>
-        <p>Status Menikah = <?php var_dump($status_menikah)?></p>
+        <?php echo var_export($tahun_kabisat == 0)?></p>
+        <p>Status Menikah = <?php var_export($status_menikah)?></p>
         <p>Alamat = <?php echo $alamat_lengkap?></p>
         <p>Target IPK = <?php echo $target_ipk?></p>
     </body>
