@@ -26,5 +26,5 @@ WHERE title NOT LIKE "A%"
 tabel payment. hasilnya seperti gambar dibawah ini */
 SELECT MAX(amount)
 FROM payment
-WHERE payment_date >= '2005-06-01' AND payment_date < '2005-06-31'
+WHERE payment_date >= '2005-06-01' AND payment_date <= '2005-06-31'
 ;
